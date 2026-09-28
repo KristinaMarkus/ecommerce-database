@@ -53,8 +53,7 @@ ecommerce-database/
 ├── 09_security.sql
 ├── diagrams/
 │   └── er-diagram.png
-└── archive/
-    └── ECommerceDB_FullScript.sql
+└── ECommerceDB_FullScript.sql
 ```
 
 ## Execution order
