@@ -1,0 +1,11 @@
+USE [master];
+GO
+
+IF DB_ID(N'ECommerceDB') IS NULL
+BEGIN
+    CREATE DATABASE [ECommerceDB];
+END;
+GO
+
+ALTER DATABASE [ECommerceDB] SET RECOVERY SIMPLE;
+GO
