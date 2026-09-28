@@ -1,5 +1,5 @@
 USE ECommerceDB;
-GO
+GO 
 
 /*
 Performance Optimization Demo
