@@ -1,4 +1,4 @@
-# E-Commerce Database — SQL Server DBA Portfolio Project
+# E-Commerce Database & Power BI Dashboard — SQL Server DBA Portfolio Project
 
 A practical relational e-commerce database built with Microsoft SQL Server and SSMS.
 
@@ -15,6 +15,7 @@ A practical relational e-commerce database built with Microsoft SQL Server and S
 - Full database backup and restore validation
 - Database roles and least-privilege permissions
 - ER database diagram
+- Power BI sales dashboard
 
 ## Database
 
