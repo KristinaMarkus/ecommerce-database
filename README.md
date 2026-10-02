@@ -51,9 +51,11 @@ ecommerce-database/
 ├── 07_indexes.sql
 ├── 08_backup_restore.sql
 ├── 09_security.sql
+├── 10_performance_test.sql
 ├── diagrams/
 │   └── er-diagram.png
 └── ECommerceDB_FullScript.sql
+└── powerbi-dashboard.png
 ```
 
 ## Execution order
@@ -69,6 +71,7 @@ For a fresh SQL Server instance/database:
 7. `07_indexes.sql`
 8. `08_backup_restore.sql`
 9. `09_security.sql`
+10. `10_performance_test.sql`
 
 `03_insert_data.sql` is intended for a fresh database because it preserves the sample identity values.
 
@@ -116,11 +119,30 @@ Add the SSMS Database Diagram screenshot as:
 diagrams/er-diagram.png
 ```
 
+## Power BI Dashboard
+
+The project includes a Power BI dashboard connected directly
+to the SQL Server ECommerceDB database.
+
+Dashboard features:
+- Completed revenue
+- Total orders
+- Units sold
+- Average order value
+- Revenue by day
+- Revenue by category
+- Top products
+- Orders by status
+- Customer revenue
+- Orders by customer
+- Interactive filters for date, category and order status
+
 ## Technologies
 
 - Microsoft SQL Server
 - SQL Server Management Studio (SSMS)
 - T-SQL
+- Power BI
 - GitHub
 
 ## Portfolio goal
