@@ -55,7 +55,8 @@ ecommerce-database/
 ├── diagrams/
 │   └── er-diagram.png
 └── ECommerceDB_FullScript.sql
-└── powerbi-dashboard.png
+└── EcommerceDB_Dashboard.pbix
+│   └── powerbi-dashboard.png
 ```
 
 ## Execution order
@@ -124,7 +125,7 @@ diagrams/er-diagram.png
 The project includes a Power BI dashboard connected directly
 to the SQL Server ECommerceDB database.
 
-Dashboard features:
+### Dashboard Features
 - Completed revenue
 - Total orders
 - Units sold
@@ -136,6 +137,9 @@ Dashboard features:
 - Customer revenue
 - Orders by customer
 - Interactive filters for date, category and order status
+
+### Dashboard Preview
+![Power BI Dashboard](powerbi-dashboard.png)
 
 ## Technologies
 
