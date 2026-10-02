@@ -40,7 +40,7 @@ Current sample dataset:
 
 ## Project structure
 
-```text
+```
 ecommerce-database/
 ├── 01_create_database.sql
 ├── 02_create_tables.sql
@@ -114,11 +114,8 @@ Indexes were added to frequently used relationship/filter columns:
 
 ## ER Diagram
 
-Add the SSMS Database Diagram screenshot as:
+![ER Database diagram](er-diagram.png)
 
-```text
-diagrams/er-diagram.png
-```
 
 ## Power BI Dashboard
 
